@@ -1,0 +1,14 @@
+<suite name="grouping suite">
+<test name="grouping application test">
+<groups>
+<run>
+<include name="wild">
+</include>
+</run>
+</groups>
+<classes>
+<class name="TestNGPackage.GroupingTestMethods">
+</class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,8 @@
+<suite name="Regression suite">
+<test name="Application Test">
+<classes>
+<class name="TestNGPackage.TestNG_Annotations1"></class>
+<class name="TestNGPackage.TestNG_Annotations2"></class>
+</classes>
+</test>
+</suite>

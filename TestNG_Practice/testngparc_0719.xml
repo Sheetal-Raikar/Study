@@ -1,0 +1,14 @@
+<suite name="0719_suite">
+<test name="0719_test">
+<classes>
+<class name="TestNGPackage.GroupingTestMethods">
+</class>
+</classes>
+<groups>
+<run>
+<include name="wild">
+</include>
+</run>
+</groups>
+</test>
+</suite>

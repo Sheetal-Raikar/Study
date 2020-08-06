@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [parameterize suite]">
+  <test thread-count="5" name="app suite(failed)">
+    <parameter name="response" value="201"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="windows"/>
+    <classes>
+      <class name="TestNGPackage.ParameterizeTestMethods">
+        <methods>
+          <include name="f"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestNGPackage.ParameterizeTestMethods -->
+    </classes>
+  </test> <!-- app suite(failed) -->
+</suite> <!-- Failed suite [parameterize suite] -->

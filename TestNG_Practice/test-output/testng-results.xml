@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[the actual int is[I@13c27452]]>
+    </line>
+    <line>
+      <![CDATA[the acutal string isTesting Assert and Report]]>
+    </line>
+    <line>
+      <![CDATA[verifying actual and expected string]]>
+    </line>
+    <line>
+      <![CDATA[the actual int is3]]>
+    </line>
+    <line>
+      <![CDATA[verifying actual and expected int]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62" started-at="2020-07-19T14:25:53 IST" finished-at="2020-07-19T14:25:53 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62" started-at="2020-07-19T14:25:53 IST" finished-at="2020-07-19T14:25:53 IST">
+      <class name="TestNGPackage.AssertAndReport">
+        <test-method status="PASS" signature="ArrayAssert()[pri:0, instance:TestNGPackage.AssertAndReport@5383967b]" name="ArrayAssert" duration-ms="20" started-at="2020-07-19T14:25:53 IST" finished-at="2020-07-19T14:25:53 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[the actual int is[I@13c27452]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ArrayAssert -->
+        <test-method status="PASS" signature="StringAssert()[pri:0, instance:TestNGPackage.AssertAndReport@5383967b]" name="StringAssert" duration-ms="1" started-at="2020-07-19T14:25:53 IST" finished-at="2020-07-19T14:25:53 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[the acutal string isTesting Assert and Report]]>
+            </line>
+            <line>
+              <![CDATA[verifying actual and expected string]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StringAssert -->
+        <test-method status="PASS" signature="IntAssert()[pri:1, instance:TestNGPackage.AssertAndReport@5383967b]" name="IntAssert" duration-ms="1" started-at="2020-07-19T14:25:53 IST" finished-at="2020-07-19T14:25:53 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[the actual int is3]]>
+            </line>
+            <line>
+              <![CDATA[verifying actual and expected int]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- IntAssert -->
+      </class> <!-- TestNGPackage.AssertAndReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

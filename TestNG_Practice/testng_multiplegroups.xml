@@ -1,0 +1,22 @@
+<suite name="multiple groups">
+<test name="app test">
+<groups>
+<define name="onlypet">
+<include name="pet"></include>
+</define>
+<define name="onlywild">
+<include name="wild"></include>
+</define>
+<define name="all">
+<include name="all"></include>
+</define>
+<run>
+<include name="onlywild"></include>
+</run>
+</groups>
+<classes>
+<class name="TestNGPackage.GroupingTestMethods"></class>
+</classes>
+</test>
+</suite>
+

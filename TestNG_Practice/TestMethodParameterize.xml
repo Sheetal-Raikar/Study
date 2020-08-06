@@ -1,0 +1,12 @@
+<suite name="parameterize suite">
+<test name="app suite">
+<parameter name="browser" value="chrome"/>
+<parameter name="platform" value="windows"/>
+<parameter name="response" value="201,202"/>
+<classes>
+<class name="TestNGPackage.ParameterizeTestMethods">
+</class>
+</classes>
+</test>
+</suite>
+
